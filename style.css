@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/waves_.jpg) no-repeat top center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pageContainer {
+    margin: 0 auto;
+    width: 1000px;
+    box-shadow: 0px 0px 30px #0f0f0f;
+}
+
+header {
+    width: 100%;
+    min-height: 650px;
+    background: url(images/headerbg.jpg) 10% 0 no-repeat fixed;
+    background-size: cover;
+    border-bottom: #0083ce solid 10px;
+}
+
+#main {
+    width: 100%;
+    min-height: 650px;
+    background: url(images/gridtile.png) repeat;
+}
+
+#main img {
+    display: block;
+    margin: auto;
+    padding: 30px 0;
+    width: 300px;
+}
+
+#main hr {
+    width: 420PX;
+    margin: 20px auto;
+    border-color: #27E0FF;
+}
+
+#main hr:nth-of-type(1) {
+    margin-top: 125px;
+}
+
+#main p {
+    font-size: 36px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+}
+
+nav {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    place-content: center;
+    text-align: center;
+    border-right: #fff 2px solid;
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+.titleMainDiv {
+    width: 100%;
+    height: 321px;
+    position: relative;
+}
+
+.titleBackgroundImageDiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#homeBgImage {
+    background: url(images/3.jpg) center center no-repeat fixed;
+    background-size: 80% auto;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.titleTextDiv {
+    width: 100%;
+    height: 100%;
+    place-content: center;
+    position: absolute;
+}
+
+.titleText {
+    margin: auto;
+    width: fit-content;
+    color: #FFF;
+    font-size: 26px;
+    font-weight: bold;
+    border: 8px #FFF solid;
+    padding: 0px 10px;
+}
+
+.contentMainDiv {
+    width: 100%;
+    font-size: 17px;
+    color: #182D55;
+    background: white;
+    padding: 60px 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.infoDiv {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.infoDiv:last-child {
+    font-size: 20px;
+}
+
+.contentMainDiv img {
+    margin-top: 95px;
+}
+
+.backToTop {
+    padding-top: 50px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.backToTop a {
+    color: #182D55;
+}
+
+#aboutBgImage {
+    background: url(images/1.jpg) center center no-repeat fixed;
+    background-size: 100% auto;
+}
+
+#servicesBgImage {
+    background: url(images/2.jpg) center center no-repeat fixed;
+    background-size: 100% auto;
+}
+
+#trainingBgImage {
+    background: url(images/banner-7.jpg) center center no-repeat fixed;
+    background-size: 100% 100%;
+}
+
+#contactBgImage {
+    background: url(images/4.jpg) center center no-repeat fixed;
+    background-size: 100% auto;
+}
+
+#contactDetailText {
+    font-size: 34px;
+}
+
+#country {
+    font-size: 24px;
+}
+
+#contactDetails {
+    font-size: 20px;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#powered {
+    font-size: 12px;
+    padding-top: 5px;
+}
